@@ -1,7 +1,5 @@
 # Cell_Tracking
-README
 
-# Summary:
 This repository provides a full workflow for generating nuclei tracks from time-lapse microscopy data. It integrates image processing, segmentation (via Cellpose), feature extraction, filtering and trajectory (via Trackpy). 
 
 # Full method pipeline: 
