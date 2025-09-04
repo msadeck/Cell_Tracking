@@ -1,10 +1,10 @@
 # Cell_Tracking
 README
 
-Summary:
+# Summary:
 This repository provides a full workflow for generating nuclei tracks from time-lapse microscopy data. It integrates image processing, segmentation (via Cellpose), feature extraction, filtering and trajectory (via Trackpy). 
 
-Full method pipeline: 
+# Full method pipeline: 
 - Image loading and Enhancement
     scripts: imaging_functions.py and image_save.py
 - Nuclei segmentation with Cellpose
@@ -16,7 +16,7 @@ Full method pipeline:
 - Nuclei tracking with Trackpy 
     notebook: trackpy_filtered2.ipynb
 
-File Descriptions: 
+# File Descriptions: 
 
 imaging_functions.py: Defines functions that are used to process images in image_save.py 
 
@@ -35,7 +35,7 @@ trackpy_filtered2.ipynb: This notebook extracts cell centroids from Cellpose out
         - min_duration: minimum number of frames a particle must appear in to be considered a valid track. Tracks with very short durations are often due to false positives (e.g. debris or noise). We select a 10 frame minimum.
     6. Visualization: Images and movies of both the link filtered and link unfiltered tracks are produced and saved. 
 
-Directory Structure:
+# Directory Structure:
 Projects/
 └── imaging_data/
     └── <base_filename>/                        # e.g. mix_dilution_FibronectinPDK_24hr_5x_1x_JDF_9may2025-Scene-45-F10-F10
