@@ -38,9 +38,9 @@ start_idx = args.beg # start index (inclusive, 0-based)
 end_idx   = args.end # exclusive → processes dirs [10, ..., 25]
 
 # === Set main path ===
-base_dir = '/mnt/storage_sda/Projects/imaging_data/'
+base_dir = 'mix_dilution_FibronectinPDK_24hr_5x_1x_JDF_9may2025-Scene-30-E4-E0
 output_subfolder_name = 'enhanced_rgb_frames'
-cellpose_output_name = 'cellpose_outputs'
+cellpose_output_name = 'cellpose_outputs2'
 
 # === Get list of sample directories and slice range ===
 all_dirs = sorted([

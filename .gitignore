@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Cellpose generated outputs and raw data
+**/cellpose_outputs*/
+**/tracks/
+**/raw_rgb_frames/
+
+# Generated plots
+particle_counts_per_frame*.png
